@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+  font-family: 'helvetica neue','hiragino sans gb','stheiti','microsoft yahei','\5FAE\8F6F\96C5\9ED1',tahoma,sans-serif; }
+
+div,ul,li{padding: 0px; margin:0px;list-style: none;}
+* { -webkit-tap-highlight-color: transparent; }
+
+#main{position: relative; margin:0 auto;}
+.box{padding: 15px 0px 0px 15px; float: left;}
+.box .pic{border:1px solid #ccc; border-radius: 5px; box-shadow: 0 0 5px #ccc}
+.box .pic img{width: 165px; height: auto;}
+.main2{
+	-webkit-column-width:202px;
+	-moz-column-width:202px;
+	-o-column-width:202px;
+	-ms-column-width:202px;
+}
